@@ -224,7 +224,7 @@ public class AnimationPropertyCleaner : EditorWindow
     #endregion
 
     #region Menu Integration
-    [MenuItem("Tools/RΩKΔ's Anim Tools/RΩKΔ's Animation Cleaner", false, 1)]
+    [MenuItem("Tools/RΩKΔ's Anim Tools/RΩKΔ's Animation Property Cleaner", false, 1)]
     public static AnimationPropertyCleaner ShowWindow()
     {
         var window = GetWindow<AnimationPropertyCleaner>("RΩKΔ's Animation Cleaner");
