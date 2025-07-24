@@ -3,10 +3,11 @@
 
    <a href="https://rokawoo.github.io/vpm-repos/"><img alt="Add to VCC" src="https://img.shields.io/badge/-Add%20to%20VCC-%232baac1?style=for-the-badge"></a>
 
-   This tool helps you batch rename and clean animation properties for VRChat avatars.
+   This tool helps you batch rename and clean animation properties for VRChat avatars.<br />
    Convert blend shape names and remove unused properties in a few clicks.
-   
-   <img width="50%" src="https://github.com/user-attachments/assets/26aae46b-1a71-40be-b4b5-d4d67e1c3c5b" />
+
+   <img width="50%" src="https://github.com/user-attachments/assets/9e566c14-f75e-4d54-a16f-9170f052b6cf" />
+   <img width="50%"  src="https://github.com/user-attachments/assets/eaeedfbf-74b3-46e5-a69b-8be4edc44636" />
 
    ## Features
    - Batch rename blend shape properties across multiple animation clips
