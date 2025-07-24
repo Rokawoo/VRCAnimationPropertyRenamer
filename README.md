@@ -5,6 +5,8 @@
 
    This tool helps you batch rename and clean animation properties for VRChat avatars.
    Convert blend shape names and remove unused properties in a few clicks.
+   
+   <img width="50%" src="https://github.com/user-attachments/assets/26aae46b-1a71-40be-b4b5-d4d67e1c3c5b" />
 
    ## Features
    - Batch rename blend shape properties across multiple animation clips
