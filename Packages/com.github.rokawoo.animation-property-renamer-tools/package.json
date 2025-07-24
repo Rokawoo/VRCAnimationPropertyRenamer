@@ -3,9 +3,11 @@
   "displayName": "VRCAnimationPropertyRenamerTools",
   "version": "1.0.0",
   "unity": "2022.3",
-  "description": "Simple Package for batch renaming animation file properties.",
+  "description": "Editor extension for batch renaming and cleaning animation properties in VRChat avatar workflows.",
   "author": {
     "name": "RΩKΔ",
     "url": "https://github.com/Rokawoo/VRCAnimationPropertyRenamerTools"
-  }
+  },
+  "license": "MIT",
+  "licensesUrl": "https://github.com/Rokawoo/VRCAnimationPropertyRenamer/blob/main/LICENSE"
 }
