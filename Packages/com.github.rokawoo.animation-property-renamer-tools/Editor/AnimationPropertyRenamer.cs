@@ -295,7 +295,7 @@ public class AnimationObjectPropertyRenamer : EditorWindow
     #endregion
 
     #region Menu Integration
-    [MenuItem("Tools/RΩKΔ's Animation Property Renamer", false, 0)]
+    [MenuItem("Tools/RΩKΔ's Anim Tools/RΩKΔ's Animation Property Renamer", false, 0)]
     public static AnimationObjectPropertyRenamer ShowWindow()
     {
         var window = GetWindow<AnimationObjectPropertyRenamer>("RΩKΔ's Animation Renamer");
