@@ -10,6 +10,10 @@
    <img width="50%"  src="https://github.com/user-attachments/assets/eaeedfbf-74b3-46e5-a69b-8be4edc44636" />
 
    ## Features
+   - Fix broken animations caused by hierarchy name changes
+     
+     [Hierarchy Name Change Demo](https://github.com/user-attachments/assets/96fd6caf-1c46-4d97-92ff-c8d753f907c8)
+
    - Batch rename blend shape properties across multiple animation clips
    - Remove empty and zero-value properties from animations
 
