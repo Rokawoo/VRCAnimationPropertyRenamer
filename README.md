@@ -17,6 +17,8 @@
    - Transfer animations between avatars
 
      [Face Animation Transfer Demo](https://github.com/user-attachments/assets/324b7f2f-bab9-4f0c-a971-87f6a5ec2c14)
+
+     [Afk Animation Transfer Demo](https://github.com/user-attachments/assets/761bcca7-9b7e-4b3c-8a22-c5984515035a)
    
    - Batch rename blend shape properties across multiple animation clips
    - Remove empty and zero-value properties from animations
