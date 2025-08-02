@@ -61,39 +61,29 @@ body {
   position: absolute;
   border-radius: 50%;
   background: var(--gradient);
-  filter: blur(40px);
-  opacity: 0.6;
-  animation: float 20s ease-in-out infinite;
+  filter: blur(60px);
+  opacity: 0.3;
 }
 
 .orb-1 {
-  width: 300px;
-  height: 300px;
-  top: 10%;
-  left: -10%;
-  animation-delay: 0s;
+  width: 400px;
+  height: 400px;
+  top: -20%;
+  left: -20%;
 }
 
 .orb-2 {
-  width: 400px;
-  height: 400px;
-  top: 60%;
-  right: -20%;
-  animation-delay: -10s;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  right: -25%;
 }
 
 .orb-3 {
-  width: 250px;
-  height: 250px;
-  bottom: 10%;
-  left: 50%;
-  animation-delay: -5s;
-}
-
-@keyframes float {
-  0%, 100% { transform: translate(0, 0) rotate(0deg); }
-  33% { transform: translate(30px, -30px) rotate(120deg); }
-  66% { transform: translate(-20px, 20px) rotate(240deg); }
+  width: 350px;
+  height: 350px;
+  bottom: -15%;
+  left: 40%;
 }
 
 .container {
@@ -237,6 +227,8 @@ body {
   backdrop-filter: blur(20px);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .demo-card::before {
@@ -256,9 +248,27 @@ body {
 }
 
 .demo-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(43, 170, 193, 0.3);
-  border-color: rgba(43, 170, 193, 0.4);
+  box-shadow: 0 25px 80px rgba(43, 170, 193, 0.4);
+  border-color: rgba(43, 170, 193, 0.6);
+}
+
+.demo-card::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: var(--gradient);
+  border-radius: 22px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  filter: blur(8px);
+}
+
+.demo-card:hover::after {
+  opacity: 0.3;
 }
 
 .demo-card h3 {
