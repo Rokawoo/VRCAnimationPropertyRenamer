@@ -217,6 +217,14 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 3rem;
+  justify-items: center;
+}
+
+@media (min-width: 1200px) {
+  .demo-grid {
+    grid-template-columns: repeat(3, minmax(380px, 400px));
+    justify-content: center;
+  }
 }
 
 .demo-card {
@@ -229,6 +237,8 @@ body {
   position: relative;
   transform-style: preserve-3d;
   perspective: 1000px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .demo-card::before {
