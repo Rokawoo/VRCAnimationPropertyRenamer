@@ -12,8 +12,8 @@
    ## Features
    - Fix broken animations caused by hierarchy name changes
      
-     [Hierarchy Name Change Demo](https://github.com/user-attachments/assets/96fd6caf-1c46-4d97-92ff-c8d753f907c8)
-
+     [Hierarchy Name Change Demo](https://github.com/user-attachments/assets/8d3ba853-cf3c-4122-aaba-86ec2eb8aede)
+     
    - Transfer animations between avatars
 
      [Face Animation Transfer Demo](https://github.com/user-attachments/assets/324b7f2f-bab9-4f0c-a971-87f6a5ec2c14)
